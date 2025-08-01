@@ -1,58 +1,54 @@
 #  Software Engineering Internship Challenge – Fanap
 
-This repository contains my solutions for the **Software Engineering Internship Challenge** by **Fanap**.  
-The challenge aims to evaluate essential algorithmic problem-solving skills, Python proficiency, and familiarity with basic data analysis and version control practices.
-
-
----
-## 🧪 Part 1: Mandatory Programming Questions
-
-### ✔️ Tasks Overview:
-1. **Reverse String**  
-   Input: `"hello"` → Output: `"olleh"`
-
-2. **Most Frequent Number**  
-   Input: `[1, 2, 2, 3, 3, 3, 4]` → Output: `3`
-
-3. **Prime Number Check**  
-   Input: `7` → Output: `True`
-
-4. **Matrix Diagonal Sum**  
-   Input: `[[9, 8, 7], [6, 5, 4], [3, 2, 1]]` → Output: `15`
-
-5. **Sort Words in a Sentence**  
-   Input: `"machine learning is fun"` → Output: `"fun is learning machine"`
-
-### 🔁 Dual Implementations:
-The same five problems have been solved in two separate folders:
-- `FILE1`: Primary implementation
-- `FILE2`: Alternative implementations or additional attempts
-
-This structure reflects consistency, multiple approaches, and practice.
+This repository includes my solutions to the **Software Engineering Internship Challenge** provided by **Fanap**.  
+The challenge is designed to evaluate fundamental programming skills, problem-solving ability, and optionally, basic data analysis and Git usage.
 
 ---
 
-## ➕ Part 2: Optional Challenges
+## 🧪 Part 1 – Required Programming Questions
 
-*Currently not included in this repository.*  
-(If completed later, this section will be updated accordingly.)
+Each problem is implemented in a separate Python file inside the `part1` folder.  
+All solutions are written in a simple and readable way, with basic comments.
+
+### ✔️ Questions:
+1. **Reverse a string** → `"hello"` → `"olleh"`
+2. **Find the most frequent number in a list** → `[1,2,2,3,3,3]` → `3`
+3. **Check if a number is prime**
+4. **Sum of the main diagonal of a square matrix**
+5. **Sort words in a sentence alphabetically** → `"machine learning is fun"` → `"fun is learning machine"`
+
+---
+
+## ➕ Part 2 – Optional Challenge
+
+The optional task involves working with a CSV file to analyze fictional sales data.
+
+### 🧾 `sales_analysis.py`:
+- Reads a file named `sales.csv`
+- Calculates:
+  - Total sales amount
+  - Average sales amount
+  - Highest single-day sale
+
+> The goal was to keep everything simple, without using external libraries like pandas.
 
 ---
 
 ## 🌐 Git & Version Control
 
 This project is version-controlled using **Git**.  
-Each step of development was committed in a clean and organized manner. You're currently viewing the public GitHub repository as part of the challenge submission.
+All changes are committed step-by-step, and the final version is submitted through a public GitHub repository.
 
 ---
 
 ## 📬 Contact
 
-Feel free to reach out if you have any feedback or suggestions:
+If you have any questions or feedback, feel free to reach out:
 
-- 📧 matin.norouzi@ut.ac.ir 
+- 📧 matin.norouzi@ut.ac.ir  
 
 
 ---
 
-> Thank you for reviewing my work!
+> Thank you for reviewing my submission!
+
